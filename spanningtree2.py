@@ -22,5 +22,13 @@ for i in range(tam):
          vetortorre.append(ordenavetor[i]+n)
          print(str(ordenavetor[i]))          
          i2=i2+1  
-        
-print(vetortorre)            
+x=[]
+y=[]
+x=ordenavetor
+print(vetortorre)
+for n2 in vetortorre:
+     y.append(n2-n)
+     y.append(n2+n)
+                                  	        
+print(y)
+print(x)           
