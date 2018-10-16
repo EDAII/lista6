@@ -1,14 +1,10 @@
-import numpy as np
 import random
-
 
 vetor = []
 vetortorre=[]
 tam = int(input("insira o tamanho do vetor \n"))
-for i in range(tam):
-    vetor.append(
-        int(input("insira o valor do vetor na posicao " + str(i) + "\n")))
-ordenavetor = np.sort(vetor)
+vetor = random.sample(range(10000000), tam)
+ordenavetor = sorted(vetor)
 print(ordenavetor)
 n=int(input("alcance da torre\n"))
 
